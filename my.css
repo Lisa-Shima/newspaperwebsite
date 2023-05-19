@@ -1,0 +1,237 @@
+/* The home page  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header>div {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    background-color: lightseagreen;
+    color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 20px 100px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-top: 18px;
+}
+
+h2 {
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+}
+
+.heading {
+    height: 100px;
+    font-size: 18px;
+}
+
+.heading>h1 {
+    /* margin-left: 450px; */
+    margin: 70px 0 0 60px;
+    width: 50%;
+    font-size: 3em;
+    color: lightseagreen;
+    /* text-shadow: rgb(165, 4, 4) ; */
+}
+
+.heading>p {
+    font-style: italic;
+    width: 60%;
+    margin: 50px 0 0 60px;
+}
+
+.para {
+    margin-left: 45px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+
+.photo {
+    margin-right: 60px;
+}
+
+.photo>img {
+    height: 450px;
+    width: 500px;
+}
+
+.para2 {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.para3 {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.para4 {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 18px;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+}
+
+#one::first-letter {
+    font-size: 20px;
+}
+
+.view {
+    background-color: rgb(26, 116, 111);
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 70px 0 0 60px;
+}
+
+
+/* The publications page */
+#pub {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 60px;
+    align-items: center;
+}
+.container_last{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 60px;
+    align-items: center;    
+    margin-bottom: 6rem;
+}
+
+.inner {
+    background-color: rgb(56, 209, 209);
+    width: 50%;
+    height: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.read {
+    background-color: rgb(26, 116, 111);
+    color: white;
+    font-weight: 600;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+#date {
+    font-size: 0.9em;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+.heads {
+    color: black;
+}
+
+.image>img {
+    float: right;
+    clear: right;
+    /* position: absolute; */
+    margin-top: -110px;
+    border-radius: 10px;
+}
+.title{
+    padding-top: 6rem;
+}
+
+/* The details page */
+
+#det {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.exp {
+    width: 50%;
+}
+
+.exp>h2 {
+    margin: 30px 50px;
+    color: rgb(26, 116, 111);
+}
+
+.exp>p {
+    margin: 0 0 0 50px;
+}
+
+.para-det {
+    font-size: 1em;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 6rem;
+}
+
+.photo-det {
+    margin-right: 60px;
+}
+
+.photo-det>img {
+    height: 450px;
+    width: 600px;
+}
